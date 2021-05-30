@@ -26,11 +26,17 @@ public class Door_1 extends Observable {
     }
     public void complete()
     {
-        setState(CLOSED);
+        if (state == OPENING) {
+            setState(OPEN);
+        }else if(state == CLOSING){
+            setState(CLOSED);
+        }
     }
     public void timeout()
     {
-        setState(CLOSING);
+        if(state == OPEN){
+            setState(CLOSING);
+        }
     }
     public void click() {
         if (state == CLOSED) {
@@ -49,5 +55,4 @@ public class Door_1 extends Observable {
         setChanged();
         notifyObservers();
     }
-
 }
