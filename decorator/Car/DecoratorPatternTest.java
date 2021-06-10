@@ -1,4 +1,4 @@
-package decorator;
+package decorator.Car;
 
 public class DecoratorPatternTest {
 

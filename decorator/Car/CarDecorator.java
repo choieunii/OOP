@@ -1,4 +1,4 @@
-package decorator;
+package decorator.Car;
 
 public class CarDecorator implements Car {
     protected Car car;

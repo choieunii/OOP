@@ -1,4 +1,4 @@
-package decorator;
+package decorator.Car;
 
 public class LuxuryCar extends CarDecorator {
     public LuxuryCar(Car c) {
