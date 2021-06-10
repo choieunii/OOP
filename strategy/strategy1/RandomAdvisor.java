@@ -1,4 +1,4 @@
-package strategy;
+package strategy.strategy1;
 
 public class RandomAdvisor implements Advisor {
     /**

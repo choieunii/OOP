@@ -1,4 +1,4 @@
-package strategy;
+package strategy.strategy1;
 
 /**
  * Objects of this class represent types of fireworks.

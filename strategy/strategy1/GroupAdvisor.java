@@ -1,4 +1,4 @@
-package strategy;
+package strategy.strategy1;
 
 /**
  * Implement the Advisor interface by relying on the Rel8 engine that relates a

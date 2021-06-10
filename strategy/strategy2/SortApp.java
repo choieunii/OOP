@@ -1,4 +1,4 @@
-package strategy2;
+package strategy.strategy2;
 
 public class SortApp {
     public static void main(String[] args) {

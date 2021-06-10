@@ -1,4 +1,4 @@
-package strategy;
+package strategy.strategy1;
 
 import java.lang.String;
 import java.util.Calendar;
