@@ -1,4 +1,4 @@
-package templatemethod;
+package templatemethod.Beverage;
 
 public class Coffee extends CaffeineBeverage {
     public void brew() {
