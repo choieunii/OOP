@@ -1,4 +1,4 @@
-package state;
+package state.Door;
 
 public class DoorStayOpen extends DoorState {
     public DoorStayOpen(Door_2 door) {

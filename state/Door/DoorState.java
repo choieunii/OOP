@@ -1,4 +1,4 @@
-package state;
+package state.Door;
 
 public abstract class DoorState {
     protected Door_2 door;

@@ -1,4 +1,4 @@
-package state;
+package state.Door;
 
 import java.util.Observable;
 
