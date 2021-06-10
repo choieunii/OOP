@@ -1,4 +1,4 @@
-package templatemethod;
+package templatemethod.Beverage;
 
 public abstract class CaffeineBeverage {
     final void prepareRecipe() {
