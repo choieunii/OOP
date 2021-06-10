@@ -1,4 +1,4 @@
-package command;
+package command.stock;
 
 class StockTrade {
     public void buy() {

@@ -1,4 +1,4 @@
-package command;
+package command.stock;
 
 public interface Order {
     public abstract void execute ();

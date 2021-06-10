@@ -1,4 +1,4 @@
-package command;
+package command.stock;
 
 import java.util.LinkedList;
 import java.util.Queue;

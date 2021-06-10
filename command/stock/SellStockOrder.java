@@ -1,13 +1,14 @@
-package command;
+package command.stock;
 
-class BuyStockOrder implements Order {
+class SellStockOrder implements Order {
+
     private StockTrade stock;
 
-    public BuyStockOrder(StockTrade st) {
+    public SellStockOrder(StockTrade st) {
         stock = st;
     }
-
     public void execute() {
         stock.buy();
     }
+
 }
